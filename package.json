@@ -22,6 +22,7 @@
   "scripts": {
     "start": "ts-node app.ts",
     "test": "jest --detectOpenHandles --forceExit",
-    "lint": "npx eslint . --fix --report-unused-disable-directives"
+    "lint": "npx eslint . --fix --report-unused-disable-directives",
+    "build": "npx tsc"
   }
 }
